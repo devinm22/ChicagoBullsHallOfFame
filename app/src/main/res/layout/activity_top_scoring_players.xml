@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bc1003"
+    tools:context=".TopScoringPlayerActivity">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:text="  Top Scoring Players of 96'"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:src="@drawable/mj"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Michael Jordan averaged 30.12 per game."
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="100dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/pippen"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scottie Pippen averaged 16.1 points per game. "
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="100dp"/>
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:src="@drawable/dennis"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dennis Rodman averaged 7.1 points per game. "
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="100dp"/>
+</LinearLayout>
